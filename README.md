@@ -1,13 +1,6 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Steps For Doug Website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+This site is the homepage for the non profit Steps 4 Doug.  Steps 4 Doug is an ALS non profit with the focus of providing reserach funding
+and scholarships for those impacted by ALS.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+This website utilizes Gatsby.js and the React Framework for a lightweight static site.
