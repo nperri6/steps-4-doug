@@ -12,7 +12,9 @@ const IndexPage = () => (
 				<button className="greenButton"> Apply today </button>
 			</div>
 		</div>
-		<div className="mission"> </div>
+		<div className="mission">
+			<div className="missionText"> Transforming funding and education of ALS through Patient Care Grants, Research and Educational Resources </div>
+		</div>
 	</div>
 )
 
