@@ -6,7 +6,7 @@ const IndexPage = () => (
 	<div className="wrapper">
 		<div className="banner">
 			<div className="bannerText">
-				Check out new Scholarships!
+				THis is the banner
 			</div>
 		</div>
 		<div className="mission"> </div>

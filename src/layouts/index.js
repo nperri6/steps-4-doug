@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-
+import logo from "../images/s4dLogo.png";
 import './index.css'
 
 // const Header = () => (
@@ -63,7 +63,7 @@ const TemplateWrapper = ({ children }) => (
 		>
 			<header className="header">
 				<Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-					<h3 style={{ display: `inline` }}>Steps 4 Doug</h3>
+					<img src={logo} alt="S4D Logo" className="headerLogo" />
 				</Link>
 				<ul style={{ listStyle: `none`, float: `right` }}>
 					<ListLink to="/fundraising/">Fundraising</ListLink>
