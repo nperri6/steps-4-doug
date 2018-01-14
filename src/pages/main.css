@@ -1,13 +1,11 @@
-.test {
-	color: red;
-}
+@import url('https://fonts.googleapis.com/css?family=Lora');
 
 /* The CSS Grid Layout*/
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   grid-template-rows: 2fr 2fr 1fr;
-  min-height: 130vh;
+  min-height: 100vh;
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
@@ -27,7 +25,7 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(0,0,0,0.7);
 	border-bottom: 1px solid rgba(30,30,30,0.1);
 	height: 3rem;
 	line-height: 3rem;
@@ -54,8 +52,8 @@
   background-color: purple;
   max-width: 1400px;
   margin: 0 auto;
-  color: rgb(230,230,230);
-  background-color: rgba(15,190,124, 0.9);
+  background-color: rgba(244,244,244, 0.5);
+  color: rgba(15,144,93, 1);
 	min-height:	100px;
 }
 
@@ -76,7 +74,7 @@
 /*****************/
 
 .banner {
-	background-color: red;
+	/*background-color: red;*/
 	grid-column-start: 1;
 	grid-column-end: end;
 	grid-row-start: 1;
@@ -99,10 +97,12 @@
 	color: white;
 	padding: 0.5rem;
 	margin-top: 10px;
+	cursor: pointer;
 }
 
 .bannerText {
-	font-weight: bold;
+	/*font-weight: bold;*/
+	font-family: 'Lora', serif;
 }
 
 .bannerTextContainer {
@@ -122,13 +122,31 @@
 }
 
 .mission {
-	background-color: green;
+	background-color: rgba(244,244,244, 0.5);
 	grid-column-start: 1;
 	grid-column-end: end;
 	grid-row-start: 3;
 	grid-row-end: span 1;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+
 }
 
+.missionText {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	align-self: center;
+	justify-self: center;
+	/*background-color: blue;*/
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+	padding: 20px;
+	font-family: 'Lora', serif;
+}
 .main {
 
 }
