@@ -1,0 +1,96 @@
+.body {
+	background-color: rgba(244,244,244, 0.5);
+	min-height: 100vh;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns:2fr 1fr 1fr 1fr;
+  grid-template-rows: 3rem 1fr 1fr 1fr 1fr;
+}
+
+
+.main {
+	grid-column-start: 1;
+	grid-column-end: end;
+	grid-row-start: 2;
+	grid-row-end: span 3;
+	/*margin-top: 3rem;*/
+	/*padding-top: 3rem;*/
+	/*background-color: green;*/
+}
+
+
+.leftMain {
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 2;
+	grid-row-end: span 3;
+	/*background-color: pink;*/
+	/*text-align: left;*/
+	padding-left: 2rem;
+	padding-right: 6rem;
+	/*padding-top: 2rem;*/
+	align-self: center;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+}
+
+.leftCentered {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.leftCentered button {
+	margin-top: 2rem;
+}
+
+.rightMain {
+	grid-column-start: 3;
+	grid-column-end: span 2;
+	grid-row-start: 2;
+	grid-row-end: span 3;
+}
+
+.rightPicture {
+	height: 90%;
+	width: 90%;
+	margin-top: 5%;
+	background-image: url("../images/bensawyer.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bottom {
+	grid-column-start: 1;
+	grid-column-end: end;
+	grid-row-start: 5;
+	grid-row-end: span 1;
+	align-self: center;
+	justify-self: center;
+}
+
+.bottom div {
+	padding: 20px;
+	font-size: 2em;
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+	padding: 20px;
+	font-family: 'Lora', serif;
+}
+
+.statistic {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.references {
+	/*margin-top: 1rem !important;*/
+	width: 100%;
+  max-width: 1400px;
+	font-size: 0.4rem !important;
+	background-color: rgba(244,244,244, 0.5);
+	margin: 0 auto;
+}
