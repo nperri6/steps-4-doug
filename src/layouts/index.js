@@ -77,11 +77,13 @@ const TemplateWrapper = ({ children }) => (
 			</div>
 			<footer className="footer">
 				<table>
-					<tr>
-						<th> Connect With Us </th>
-						<th> Get Involved </th>
-						<th> Who We Are </th>
-					</tr>
+					<tbody>
+						<tr>
+							<th> Connect With Us </th>
+							<th> Get Involved </th>
+							<th> Who We Are </th>
+						</tr>
+					</tbody>
 				</table>
 				<div> Steps 4 Doug is a registered 501(C)(3) Charity 	&copy; 2018 </div>
 				<div style={{ fontSize: '0.5rem' }}> Website designed by Nick Perri </div>
