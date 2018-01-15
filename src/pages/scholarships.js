@@ -22,7 +22,6 @@ class Scholarships extends React.Component {
 								<div> <span className={styles.statistic}>9</span> Total Scholarship Recipients </div>
 								<div> <span className={styles.statistic}>$12,000</span> dispersed </div>
 								<div> <span className={styles.statistic}>3</span> Two Year Recipients </div>
-								<button className="greenButton"> Meet the 2017 Winners </button>
 							</div>
 					</div>
 					<div className={styles.rightMain}>
