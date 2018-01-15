@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
+import { navigateTo } from 'gatsby-link';
 import Helmet from 'react-helmet'
 import logo from "../images/s4dLogo.png";
 import './index.css'
@@ -68,7 +69,6 @@ const TemplateWrapper = ({ children }) => (
 				<ul style={{ listStyle: `none`, float: `right` }}>
 					<ListLink to="/fundraising/">Fundraising</ListLink>
 					<ListLink to="/scholarships/">Scholarships</ListLink>
-					<ListLink to="/research/">Research</ListLink>
 					<ListLink to="/contact/">Contact</ListLink>
 				</ul>
 			</header>
@@ -79,16 +79,13 @@ const TemplateWrapper = ({ children }) => (
 				<table>
 					<tbody>
 						<tr>
-							<th> Connect With Us </th>
-							<th> Get Involved </th>
-							<th> Who We Are </th>
+							<th> </th>
+							<th onClick={ () => navigateTo('/contact/')} style={{cursor: 'pointer'}}> Connect With Us </th>
+							<th> </th>
 						</tr>
 					</tbody>
 				</table>
 				<div> Steps 4 Doug is a registered 501(C)(3) Charity 	&copy; 2018 </div>
-				<div style={{ fontSize: '0.5rem' }}> Website designed by Nick Perri </div>
-
-
 			</footer>
 		</div>
 	</div>
