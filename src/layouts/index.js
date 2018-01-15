@@ -67,7 +67,7 @@ const TemplateWrapper = ({ children }) => (
 					<img src={logo} alt="S4D Logo" className="headerLogo" />
 				</Link>
 				<ul style={{ listStyle: `none`, float: `right` }}>
-					<ListLink to="/fundraising/">Fundraising</ListLink>
+					<ListLink to="/donate/">Donate</ListLink>
 					<ListLink to="/scholarships/">Scholarships</ListLink>
 					<ListLink to="/contact/">Contact</ListLink>
 				</ul>
@@ -86,6 +86,7 @@ const TemplateWrapper = ({ children }) => (
 					</tbody>
 				</table>
 				<div> Steps 4 Doug is a registered 501(C)(3) Charity 	&copy; 2018 </div>
+				<div style={{fontSize: '0.7rem'}}> *Website under construction* </div>
 			</footer>
 		</div>
 	</div>
