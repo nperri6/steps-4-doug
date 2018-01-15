@@ -1,5 +1,6 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import { navigateTo } from 'gatsby-link';
 import styles from "./main.css";
 
 const IndexPage = () => (
@@ -9,7 +10,7 @@ const IndexPage = () => (
 				<div className="bannerText">
 				2018 Scholarship applications are now open!
 				</div>
-				<button className="greenButton"> Apply today </button>
+				<button className="greenButton"  onClick={ () => navigateTo('/apply/')}> Apply today </button>
 			</div>
 		</div>
 		<div className="mission">

@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "../styles/scholarships.module.css";
+import Link from 'gatsby-link';
+import { navigateTo } from 'gatsby-link';
 console.log(styles);
 
 class Scholarships extends React.Component {
@@ -28,7 +30,9 @@ class Scholarships extends React.Component {
 					</div>
 					<div className={styles.bottom}>
 						<div> The 2018 scholarship is now open! </div>
-						<button className="greenButton"> Apply For the 2018 Steps For Doug Scholarship </button>
+						<button className="greenButton" onClick={ () => navigateTo('/apply/')}>
+							Apply For the 2018 Steps For Doug Scholarship
+						</button>
 					</div>
 				</div>
 				<div className={styles.references}>
