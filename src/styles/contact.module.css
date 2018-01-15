@@ -1,0 +1,62 @@
+.contactForm {
+	text-align: center;
+	border: 1px solid black;
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	align-self: center;
+	justify-self: center;
+	min-width: 500px;
+}
+
+.contactDetails {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+	align-self: center;
+	justify-self: center;
+	min-width: 200px;
+}
+
+.contactDetails h2 {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.contactDetails div {
+	font-size: 1.5em;
+	line-height: 2em;
+	text-align: center;
+}
+
+.iconRow {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.icon {
+	margin: 15px;
+	display: inline-block;
+}
+
+.contactForm input{
+	/*text-align: center;*/
+	min-width: 80%;
+	margin-bottom: 10px;
+}
+
+.contactForm textarea {
+	min-width: 80%;
+	height: 6rem;
+}
+
+.main {
+	margin: 5rem auto;
+	min-height: 70vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+}
