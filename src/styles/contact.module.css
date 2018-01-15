@@ -59,4 +59,6 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
+	background-color: rgba(244,244,244, 0.5);
+	max-width: 1400px;
 }
