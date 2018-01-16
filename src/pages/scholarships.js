@@ -13,8 +13,8 @@ class Scholarships extends React.Component {
 					</div>
 					<div className={styles.leftMain}>
 						<h1> Scholarships </h1>
-							<div> On average, an ALS diagnosis costs familes $63,692 annually<sup>*</sup>.</div>
-							<div> These costs can influence family memebers' abilities to <br /> pursue their own academic interests. </div>
+							<div> On average, an ALS diagnosis costs families $63,692 annually<sup>*</sup>.</div>
+							<div> These costs can influence family members' abilities to <br /> pursue their own academic interests. </div>
 							<br />
 							<div> To help offset that burden, in 2016 we started offering a scholarship <br />for anyone whom has been directly impacted by ALS. </div>
 							<div className={styles.leftCentered}>
