@@ -8,9 +8,9 @@ const IndexPage = () => (
 		<div className="banner">
 			<div className="bannerTextContainer">
 				<div className="bannerText">
-				2018 Scholarship applications are now open!
+				
 				</div>
-				<button className="greenButton"  onClick={ () => navigateTo('/apply/')}> Apply today </button>
+				<button className="greenButton"  onClick={ () => navigateTo('/scholarshipWinners/')}> Meet Our 2018 Scholarship Winners </button>
 			</div>
 		</div>
 		<div className="mission">

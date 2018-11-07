@@ -28,9 +28,9 @@ class Scholarships extends React.Component {
 						<div className={styles.rightPicture}></div>
 					</div>
 					<div className={styles.bottom}>
-						<div> The 2018 scholarship is now open! </div>
-						<button className="greenButton" onClick={ () => navigateTo('/apply/')}>
-							Apply For the 2018 Steps For Doug Scholarship
+						<div> The 2018 Scholarship winners have been announced! </div>
+						<button className="greenButton" onClick={ () => navigateTo('/scholarshipWinners/')}>
+							Read about the 2018 S4D Winners
 						</button>
 					</div>
 				</div>
