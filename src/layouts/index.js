@@ -52,7 +52,7 @@ const TemplateWrapper = ({ children }) => (
 			meta={[
 				{ name: 'description', content: 'Steps 4 Doug NonProfit' },
 				{ name: 'keywords', content: 'S4D, NonProfit, ALS' },
-				{ name: 'google-site-verification', content: 'mO-mYX0n4okcNknUuA4XaskiuMQWzPfi5p8CcrWOne0'}
+				{ name: 'google-site-verification', content: 'EVKe3NnYhT3Za04yeVdEb9_o2sOVY485266BZ1gbaRQ'}
 			]}
 		/>
 		<div
