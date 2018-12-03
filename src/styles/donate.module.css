@@ -1,65 +1,76 @@
 .main {
-	margin: 0 auto;
-	min-height: 80vh;
-	width: 100%;
-	background-color: rgba(244,244,244, 0.5);
-	max-width: 1400px;
-}
-
-.body {
-	margin-top: 4rem;
+	min-height: 70vh;
+    width: 95%;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr 1fr 1fr 0.1fr;
+    align-items: top;
+	background-color: rgba(244,244,244, 0.5);
+    max-width: 1400px;
+    margin: 3.5rem auto;
+    color: rgba(0, 0, 0, 0.7);
 }
 
-.leftHalf {
-	margin-top: 1rem;
+.leftTitle {
 	grid-column-start: 1;
 	grid-column-end: span 1;
 	grid-row-start: 1;
 	grid-row-end: span 1;
-	align-self: center;
-	justify-self: center;
+    /* background-color: teal; */
+    margin-top: 25px;
+	padding-left: 25px;
+	margin-bottom: -15px;
+}
+.leftTitle h1 {
+	font-size: 3em;
+}
+.leftDonateOne {
 	text-align: center;
-	padding-left: 4rem;
-	padding-right: 4rem;
-}
-
-.leftHalf h2{
-	font-size: 2.2rem;
-
-}
-
-.subHeader {
-	font-size: 1.5rem;
-	line-height: 1.8rem;
-}
-
-.disclaimer {
-	margin-top: 3rem;
-	font-size: 0.8rem;
-}
-
-
-.rightHalf {
-	grid-column-start: 2;
-	grid-column-end: span 1;
-	grid-row-start: 1;
+	margin: 0 auto;
+	margin-bottom: -10px;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 2;
 	grid-row-end: span 1;
-/*	align-self: center;
-	justify-self: center;*/
+}
+.leftTextBox {
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 3;
+	grid-row-end: span 2;
+    /* background-color: green; */
+	margin: 10px 30px;
+}
+.leftDonateTwo {
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 5;
+	grid-row-end: span 1;
+	text-align: center;
+	margin: 0 auto;
+}
+.rightPictureOne {
+	grid-column-start: 3;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 2;
+	height: 90%;
+	border-radius: 10%;
+	background-image: url("../images/doug2.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.rightImage {
-	min-width: 90%;
-	max-width: 100%;
-	min-height: 90%;
-	max-height: 80%;
-	margin-top: 5%;
-	margin-right: 5%;
-	background-image: url("../images/S4dFlag.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+.rightPictureTwo {
+	grid-column-start: 3;
+	grid-column-end: span 1;
+	grid-row-start: 4;
+	grid-row-end: span 2;
+	height: 90%;
+	border-radius: 10%;
+	background-image: url("../images/pumpkin.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
