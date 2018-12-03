@@ -68,9 +68,12 @@ const TemplateWrapper = ({ children }) => (
 					<img src={logo} alt="S4D Logo" className="headerLogo" />
 				</Link>
 				<ul style={{ listStyle: `none`, float: `right` }}>
-					<ListLink to="/donate/">Donate</ListLink>
+					<ListLink to="/aboutUs/">Who We Are</ListLink>
+					<ListLink to="/research/">Research</ListLink>	
 					<ListLink to="/scholarships/">Scholarships</ListLink>
 					<ListLink to="/contact/">Contact</ListLink>
+					<ListLink to="/active">Active</ListLink>
+					<ListLink to="/donate/">Donate</ListLink>
 				</ul>
 			</header>
 			<div className="main">

@@ -8,13 +8,12 @@ const IndexPage = () => (
 		<div className="banner">
 			<div className="bannerTextContainer">
 				<div className="bannerText">
-				
+					{/* Steps For Doug */}
 				</div>
-				<button className="greenButton"  onClick={ () => navigateTo('/scholarshipWinners/')}> Meet Our 2018 Scholarship Winners </button>
 			</div>
 		</div>
 		<div className="mission">
-			<div className="missionText"> Transforming funding and education of ALS through Patient Care Grants, Research and Educational Resources </div>
+			<div className="missionText"> Supporting families through an ALS diagnosis</div>
 		</div>
 	</div>
 )

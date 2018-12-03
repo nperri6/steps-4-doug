@@ -84,7 +84,10 @@
     grid-column-end: span 1;
     grid-row-start: 4;
     grid-row-end: span 1;
-    background-color: teal;
+    background-image: url("../images/roosi.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .centerPicture {
@@ -92,7 +95,10 @@
     grid-column-end: span 1;
     grid-row-start: 4;
     grid-row-end: span 1;
-    background-color: red;
+    background-image: url("../images/chicagoPaper.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .rightPicture {
@@ -100,5 +106,8 @@
     grid-column-end: span 1;
     grid-row-start: 4;
     grid-row-end: span 1;
-    background-color: purple;
+    background-image: url("../images/bracelet2.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
