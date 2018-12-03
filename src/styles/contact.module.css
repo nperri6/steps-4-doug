@@ -61,4 +61,5 @@
 	grid-template-rows: 1fr;
 	background-color: rgba(244,244,244, 0.5);
 	max-width: 1400px;
+	color: rgba(0, 0, 0, 0.7);
 }

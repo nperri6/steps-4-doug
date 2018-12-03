@@ -71,9 +71,9 @@ const TemplateWrapper = ({ children }) => (
 					<ListLink to="/aboutUs/">Who We Are</ListLink>
 					<ListLink to="/research/">Research</ListLink>	
 					<ListLink to="/scholarships/">Scholarships</ListLink>
-					<ListLink to="/contact/">Contact</ListLink>
 					<ListLink to="/active">Active</ListLink>
-					<ListLink to="/donate/">Donate</ListLink>
+					<ListLink to="/contact/">Contact</ListLink>
+					<ListLink to="/donate/"><span className="donateLink">Donate</span></ListLink>
 				</ul>
 			</header>
 			<div className="main">

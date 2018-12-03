@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns:2fr 1fr 1fr 1fr;
   grid-template-rows: 3rem 1fr 1fr 1fr 1fr;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -35,6 +36,11 @@
 	align-self: center;
 	font-size: 1.2rem;
 	line-height: 1.6rem;
+}
+.leftMain h1{
+	margin-top: 30px;
+	text-align: left;	
+	font-size: 2.2em;
 }
 
 .leftCentered {

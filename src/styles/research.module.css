@@ -2,8 +2,8 @@
 	min-height: 70vh;
     width: 95%;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.1fr 0.1fr 1fr 0.8fr;
+	grid-template-columns: 1fr 1fr 1.2fr;
+    grid-template-rows: 0.1fr 0.2fr 1fr 1.2fr;
     align-items: top;
 	background-color: rgba(244,244,244, 0.5);
     max-width: 1400px;
@@ -28,29 +28,30 @@
     grid-column-end: span 2;
     grid-row-start: 1;
     grid-row-end: span 1;
-    height: 90%;
+    height: 80%;
     width: 90%;
-    margin: 0 auto;
+    margin-top: 1%;
+    text-align: right;  
     background-image: url("../images/Uchicago.gif");
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
 }
 .researchTitle {
-    grid-column-start:2;
-    grid-column-end: span 2;
+    grid-column-start:3;
+    grid-column-end: span 1;
     grid-row-start:2;
     grid-row-end: span 1;
     /* background-color: saddlebrown; */
-    font-size: 28px;
+    font-size: 24px;
+    margin-left:5px;
     font-weight: bold;
     text-align: center;
     vertical-align: middle;
-    line-height:4;
 }
 .researchBody {
-    grid-column-start:2;
-    grid-column-end: span 2;
+    grid-column-start:3;
+    grid-column-end: span 1;
     grid-row-start:3;
     grid-row-end: span 2;
     /* background-color: salmon; */
@@ -60,7 +61,7 @@
 .researchPaper {
     text-align: center;
     margin: 20px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     
 }
@@ -72,11 +73,11 @@
 }
 .leftTextBox {
 	grid-column-start: 1;
-	grid-column-end: span 1;
+	grid-column-end: span 2;
 	grid-row-start: 2;
 	grid-row-end: span 2;
     /* background-color: green; */
-    padding: 16px;
+    padding: 30px;
 }
 
 .leftPicture {
