@@ -53,7 +53,7 @@
 }
 
 .main {
-	margin: 4rem auto;
+	margin: 0 auto;
 	min-height: 70vh;
 	width: 100%;
 	display: grid;
@@ -62,4 +62,38 @@
 	background-color: rgba(244,244,244, 0.5);
 	max-width: 1400px;
 	color: rgba(0, 0, 0, 0.7);
+}
+
+
+/*****************/
+/*Mobile Styling */
+/*****************/
+@media all and (max-width: 790px) {
+	.contactDetails h2{
+		font-size: 2rem;
+		margin-top: 20px;
+	}
+
+	.contactDetails {
+		font-size: 14px;
+		grid-column-end: span 2;
+	}
+
+	.contactDetails div {
+		line-height: 1.3 !important;
+		margin-bottom: 15px;
+		width: 90%;
+		margin: 0 auto 15px;
+	}
+
+	.contactForm {
+		grid-column-start: 1;
+		grid-column-end: span 2; 
+		grid-row-start: 2;
+		grid-row-end: span 2;
+		min-width: 300px;
+	}
+	.icon {
+		width: 50px !important;
+	}
 }

@@ -7,7 +7,7 @@
     align-items: top;
 	background-color: rgba(244,244,244, 0.5);
     max-width: 1400px;
-    margin: 3.5rem auto;
+    margin: 0 auto;
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -73,4 +73,34 @@
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/*****************/
+/*Mobile Styling */
+/*****************/
+
+@media all and (max-width: 790px) {
+    .leftTitle h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+	.rightPictureOne {
+		background-image: none;
+	}
+
+	.rightPictureTwo {
+		background-image: none;
+	}
+
+	.leftDonateOne {
+		margin-top: 30px;
+		grid-column-end: span 3;
+	}
+	.leftTextBox {
+		grid-column-end: span 3;
+	}
+	.leftDonateTwo {
+		grid-column-end: span 3;
+	}
 }

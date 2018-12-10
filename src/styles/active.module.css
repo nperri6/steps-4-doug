@@ -7,7 +7,6 @@
     align-items: top;
 	background-color: rgba(244,244,244, 0.5);
     max-width: 1400px;
-    margin: 3.5rem auto;
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -32,10 +31,6 @@
     min-height: 300px;
     width: 90%;
     border-radius: 5%;
-    background-image: url("../images/active2.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .centerPicture {
@@ -46,10 +41,6 @@
     min-height: 300px;
     width: 90%;
     border-radius: 5%;
-    background-image: url("../images/active1.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .rightPicture {
@@ -59,10 +50,13 @@
     grid-row-end: span 1;
     width: 90%;
     border-radius: 5%;
-    background-image: url("../images/active3.jpg");
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+.activePic {
+    text-align: center;
+}
+
+.activePic img {
+    height: 250px;
 }
 
 .bottomText {
@@ -74,4 +68,27 @@
     font-size:1.2em;
     text-align: center;
     margin: 40px 30px;
+}
+
+/*****************/
+/*Mobile Styling */
+/*****************/
+
+@media all and (max-width: 790px) {
+    .main {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 0.2fr 0.6fr;
+    }
+
+
+    .leftTitle h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .activePic img {
+        height: 100px;
+    }
+    .bottomText {
+        margin-top: -160px;
+    }
 }

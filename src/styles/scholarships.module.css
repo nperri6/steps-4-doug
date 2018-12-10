@@ -26,7 +26,7 @@
 .leftMain {
 	grid-column-start: 1;
 	grid-column-end: span 2;
-	grid-row-start: 2;
+	grid-row-start: 1;
 	grid-row-end: span 3;
 	/*background-color: pink;*/
 	text-align: left;
@@ -55,7 +55,7 @@
 .rightMain {
 	grid-column-start: 3;
 	grid-column-end: span 2;
-	grid-row-start: 2;
+	grid-row-start: 1;
 	grid-row-end: span 3;
 }
 
@@ -99,4 +99,40 @@
 	font-size: 0.4rem !important;
 	background-color: rgba(244,244,244, 0.5);
 	margin: 0 auto;
+}
+
+
+/*****************/
+/*Mobile Styling */
+/*****************/
+
+@media all and (max-width: 790px) {
+	.leftMain h1 {
+		font-size: 1.6rem;
+		margin-left: 10px;
+		
+	}
+	.leftMain {
+		width: 100%;
+		padding: 0px;
+		grid-column-end: span 4;
+	}
+	.rightPicture {
+		background-image: none;
+	}
+
+	.leftText {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.bottom {
+		grid-row-start: 4;
+	}
+
+	.body {
+		grid-template-rows: 3rem 1fr 1fr 1fr;
+	}
+
+
 }

@@ -38,6 +38,56 @@
 	color: rgba(0,0,0, 1);
 }
 
+.homePageLink {
+	text-shadow: none;
+	background-image: none;
+}
+
+.headerButtonList {
+	list-style: none;
+	float: right;
+}
+.mainBody {
+	padding-top: 3.0rem;
+}
+
+@media all and (max-width: 790px) {
+	.header {
+		padding: 10px 0;
+		height: 4.5rem;
+	}
+
+	.header .homePageLink {
+		max-height: 1.5rem;
+		display: block;
+		text-align: center;
+		float: none;
+	}
+
+	.header .headerLogo {
+		max-height: 2rem;
+	}
+	.header li {
+		font-size: 10px;
+		margin-right:0.5rem !important;
+	}
+	.headerButtonList {
+		margin: 0 auto;
+		text-align: center;
+		float: none !important;
+	}
+
+	.mainBody {
+		padding-top: 4.5rem;
+	}
+}
+
+@media all and (max-width: 360px) { 
+	.header li {
+		font-size: 9px;
+		margin-right:0.3rem !important;
+	}
+}
 /**********************/
 
 /*****************/

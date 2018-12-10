@@ -13,10 +13,11 @@ class Scholarships extends React.Component {
 					</div>
 					<div className={styles.leftMain}>
 						<h1> Scholarships </h1>
-						On average, an ALS diagnosis costs families $63,692 annually*.
-These costs can influence family members' abilities to pursue their own academic interests. <br></br><br></br>To help offset that burden, in 2016 we started offering the Douglas MacInnes ALS Scholarship for anyone whom has been directly impacted by ALS. This scholarship embodies Doug's values and is such a powerful and special way to remember him. 
-
-<br></br><br></br>Every year these applications lift up the voices and stories of ALS patients and their families. We are so grateful to all of the applicants for sharing their personal experiences with us. We look forward to reading this year's applications. 
+						<div className={styles.leftText}>
+							On average, an ALS diagnosis costs families $63,692 annually*.
+							These costs can influence family members' abilities to pursue their own academic interests. <br></br><br></br>To help offset that burden, in 2016 we started offering the Douglas MacInnes ALS Scholarship for anyone whom has been directly impacted by ALS. This scholarship embodies Doug's values and is such a powerful and special way to remember him. 
+							<br></br><br></br>Every year these applications lift up the voices and stories of ALS patients and their families. We are so grateful to all of the applicants for sharing their personal experiences with us. We look forward to reading this year's applications. 
+						</div>
 					</div>
 					<div className={styles.rightMain}>
 						<div className={styles.rightPicture}></div>

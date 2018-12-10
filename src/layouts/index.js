@@ -64,10 +64,10 @@ const TemplateWrapper = ({ children }) => (
 			}}
 		>
 			<header className="header">
-				<Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-					<img src={logo} alt="S4D Logo" className="headerLogo" />
+				<Link to="/" className="homePageLink">
+					<img src={logo} alt="S4D Logo" className="headerLogo"/>
 				</Link>
-				<ul style={{ listStyle: `none`, float: `right` }}>
+				<ul className="headerButtonList">
 					<ListLink to="/aboutUs/">Who We Are</ListLink>
 					<ListLink to="/research/">Research</ListLink>	
 					<ListLink to="/scholarships/">Scholarships</ListLink>
@@ -76,7 +76,7 @@ const TemplateWrapper = ({ children }) => (
 					<ListLink to="/donate/"><span className="donateLink">Donate</span></ListLink>
 				</ul>
 			</header>
-			<div className="main">
+			<div className="mainBody">
 				{children()}
 			</div>
 			<footer className="footer">
