@@ -157,8 +157,8 @@
 }
 
 .bannerTextContainer {
-	/* background-color: rgba(30,30,30,0.7); */
-	/* border: 1px solid rgba(30,30,30, 0.8); */
+	background-color: rgba(30,30,30,0.7);
+	border: 1px solid rgba(30,30,30, 0.8);
 	padding: 1rem;
 	grid-column-start: 2;
 	grid-column-end: span 1;
