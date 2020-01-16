@@ -26,9 +26,9 @@ class Scholarships extends React.Component {
 						<div className={styles.rightPicture}></div>
 					</div>
 					<div className={styles.bottom}>
-						<div> The 2019 Scholarship Application is now open! </div>
+						<div> The 2020 Scholarship Application is now open! </div>
 						<button className="greenButton" onClick={ () => navigateTo('/scholarshipApplication/')}>
-							2019 Scholarship Application
+							2020 Scholarship Application
 						</button>
 						
 					</div>

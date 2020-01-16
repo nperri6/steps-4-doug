@@ -13,8 +13,8 @@ class ScholarshipsNew extends React.Component {
 						<h1> Scholarships</h1>
 					</div>
 					<div className={styles.rightTitle}> Meet the Past Winners!</div>
-					<div className={styles.leftTextBox}> sdfsdf</div>
-					<div className={styles.leftNotification}> Applications for the 2019 cycle will be released on January 14th, 2019!</div>
+					<div className={styles.leftTextBox}> </div>
+					<div className={styles.leftNotification}> Applications for the 2020 cycle will be released on January 14th, 2020!</div>
 					<div className={[styles.scholarshipWinner, styles.rosemaryPicture].join(' ')}> 
 						Winner 1
 					</div>

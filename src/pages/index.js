@@ -8,9 +8,9 @@ const IndexPage = () => (
 		<div className="banner">
 			<div className="bannerTextContainer">
 				<div className="bannerText">
-					<h2>The 2019 Scholarship Application is Now Open!</h2>
+					<h2>The 2020 Scholarship Application is Now Open!</h2>
 					<button className="greenButton" onClick={ () => navigateTo('/scholarshipApplication/')}>
-							2019 Scholarship Application
+							2020 Scholarship Application
 						</button>
 				</div>
 			</div>
